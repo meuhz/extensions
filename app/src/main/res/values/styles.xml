@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Toolbar -->
+    <style name="MaterialToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:background">@drawable/toolbar_background</item>
+        <item name="titleCentered">true</item>
+        <item name="titleTextAppearance">@style/TitleTextAppearance</item>
+        <item name="navigationIcon">@drawable/ic_arrow_back_ios</item>
+        <item name="navigationContentDescription">@string/back</item>
+    </style>
+
+    <style name="TitleTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 默认按钮 -->
+    <style name="ButtonStyle" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingStart">@dimen/dp_12</item>
+        <item name="android:paddingLeft">@dimen/dp_12</item>
+        <item name="android:paddingEnd">@dimen/dp_12</item>
+        <item name="android:paddingRight">@dimen/dp_12</item>
+        <item name="android:paddingTop">@dimen/dp_6</item>
+        <item name="android:paddingBottom">@dimen/dp_6</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="cornerRadius">@dimen/dp_4</item>
+    </style>
+
+    <style name="OutlinedButtonStyle" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:paddingStart">@dimen/dp_12</item>
+        <item name="android:paddingLeft">@dimen/dp_12</item>
+        <item name="android:paddingEnd">@dimen/dp_12</item>
+        <item name="android:paddingRight">@dimen/dp_12</item>
+        <item name="android:paddingTop">@dimen/dp_6</item>
+        <item name="android:paddingBottom">@dimen/dp_6</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="cornerRadius">@dimen/dp_4</item>
+        <item name="strokeColor">?colorPrimary</item>
+    </style>
+
+    <!-- 圆角按钮 -->
+    <style name="RoundedButtonStyle" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:paddingLeft">@dimen/dp_12</item>
+        <item name="android:paddingEnd">@dimen/dp_12</item>
+        <item name="android:paddingRight">@dimen/dp_12</item>
+        <item name="android:paddingTop">@dimen/dp_6</item>
+        <item name="android:paddingBottom">@dimen/dp_6</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="OutlinedRoundedButtonStyle" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:paddingLeft">@dimen/dp_12</item>
+        <item name="android:paddingEnd">@dimen/dp_12</item>
+        <item name="android:paddingRight">@dimen/dp_12</item>
+        <item name="android:paddingTop">@dimen/dp_6</item>
+        <item name="android:paddingBottom">@dimen/dp_6</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="strokeColor">?colorPrimary</item>
+    </style>
+
+    <!-- 默认文本框样式 -->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:padding">@dimen/dp_8</item>
+        <item name="android:background">@drawable/shape_white_border1px</item>
+    </style>
+
+    <!-- 默认水平分割线样式 -->
+    <style name="HorizontalLineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_size</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+    <!-- 默认垂直分割线样式 -->
+    <style name="VerticalLineStyle">
+        <item name="android:layout_width">@dimen/divider_size</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="drawableSize" format="dimension" />
+    </declare-styleable>
+
+</resources>
