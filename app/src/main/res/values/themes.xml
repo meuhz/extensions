@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UIApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#FF9800</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:textColorPrimary">#333333</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:listDivider">@drawable/divider_line</item>
+        <item name="android:overScrollMode">never</item>
+
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+
+        <item name="colorSurfaceInverse">#FFC107</item>
+        <item name="colorOnSurfaceInverse">#FFFFFF</item>
+        <item name="colorPrimaryInverse">#000000</item>
+
+        <item name="actionBarSize">@dimen/dp_48</item>
+        <item name="dialogCornerRadius">10dp</item>
+        <item name="android:windowBackground">@color/backgroundPrimary</item>
+    </style>
+
+    <style name="Theme.UIApp" parent="Base.Theme.UIApp"></style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated drawable.
+            One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
+        <!-- Required for animated icons. -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+
+        <!-- <item name="android:windowSplashScreenBrandingImage">@drawable/ic_launcher_foreground</item> -->
+
+        <!-- Set the theme of the Activity that directly follows your splash screen. This is required. -->
+        <item name="postSplashScreenTheme">@style/Theme.UIApp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ff0a59f7</color>
+    <color name="secondary">#ff0a59f7</color>
+
+    <color name="success">#ff07c160</color>
+    <color name="warning">#ffe84026</color>
+    <color name="error">#fff44336</color>
+
+    <color name="fontPrimary">#182431</color>
+    <color name="fontSecondary">#99000000</color>
+    <color name="fontTertiary">#66000000</color>
+    <color name="fontFourth">#33000000</color>
+    <color name="fontEmphasize">@color/primary</color>
+    <color name="fontOnPrimary">#ffffff</color>
+
+    <color name="backgroundPrimary">#ffffffff</color>
+    <color name="backgroundSecondary">#fff1f3f5</color>
+    <color name="backgroundTertiary">#ffe5e5ea</color>
+    <color name="backgroundFourth">#ffd1d1d6</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="black5">#0D000000</color>
+
+    <color name="primary_color">@color/blue_500</color>
+    <color name="secondary_color">@color/blue_700</color>
+
+    <!--  分割线颜色 -->
+    <color name="divider_color">@color/gray_300</color>
+
+    <!-- 按钮颜色 -->
+    <color name="button_color">@color/primary_color</color>
+    <color name="button_pressed_color">#7e57c2</color>
+    <color name="button_disable_color">#D1C4E9</color>
+
+</resources>
